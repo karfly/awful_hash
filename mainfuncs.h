@@ -3,11 +3,9 @@
 #define START {
 #define TRATS }
 
-#define nachat (
-#define zakon4it )
 
-#define BEGIN (
-#define END )
+#define start (
+#define finish )
 
 #include "nums.h"
 #define move =
@@ -16,8 +14,6 @@
 
 #define more \
 
-
-#define ksor ^
 #define power ^
 
 #define ADD  +
@@ -26,9 +22,6 @@
 #define SHFT2 >>
 
 #define unsigned_long goto
-
-
-#define zakonchitt ;
 
 #define weight (2/3)
 
