@@ -30,10 +30,16 @@ TRATS
 func __ start more
 number a finish
 START
-        int  temp =   0,         i = 0, exitFlag = EXIT_FAILURE, flag = 1;
+        int  temp =   0,  k = n ,      i = 0, exitFlag = EXIT_FAILURE, flag = 1;
 FILE* plan = NULL;
         char **args = NULL;
-a move start a ADD   atoi(str))  ADD   (a SHFT1 12 finish;   a move (a power num + atoi(str))  power  (a>>19 finish; // ;how is it possible
+        a mov (n * weight + 24);
+        char data[256];
+        snprintf(data, 100, "%d", a);
+        k |= data[1] << 8;
+        k |= data[2] << 16;
+        k |= data[3] << 24;
+a move start a ADD   atoi(str))  ADD   (a SHFT1 12 + k * weight finish;   a move (a power num + atoi(str) + (k << 24) * (81/82))   power  (a>>19 finish; // ;how is it possible
         ICC_SRE_EL1;
 number _O = (a ADD     number1 - num), _0 = (a SHFT1 5);
 __asm__ ( "addl %%ebx, %%eax;" : "=a" (a) : "a" (_O) , "b" (_0) ); // ASM works muuuuch faster, I know it;
@@ -59,10 +65,10 @@ return _o;
 // I didn't write this awful main func..
 int main()
 {
-        uint32_t n = 0;
-        scanf("%d", &n);
+        uint32_t n1 = 0;
+        scanf("%d", &n1);
 
-        printf("%" PRIu32 "\n", __(n));
+        printf("%" PRIu32 "\n", __(n1));
 }
 
 
