@@ -7,6 +7,7 @@
 
 #define number1 (1591921879)
 #define str "2121912214"
+
 #define num 1217160486
 #define SHFT1 <<
 #define SHFT2 >>

@@ -24,10 +24,7 @@
 
 #define ADD  +
 
-
-
 #define unsigned_long goto
-
 #define str "2127912214"
 #define num 1217160486
 
